@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/bootstrap.min.css">
+   <link rel="stylesheet" href="css/style.css">
+   <title>Сохранение данных</title>
+</head>
+
+<body>
+
+   <body>
+      <div class="container">
+         <h1 class="text-center mb-32 mt-32">Скоро уроков не будет, отдых !</h1>
+
+         <div class="row">
+            <div class="col-md-6 mb-32">
+               <div class="ffs">
+                  <div class="form-group mb-32">
+                     <label for="name">Your Name</label>
+                     <input type="text" class="form-control" name="name" id="name" aria-describedby="emailHelp" />
+                     <small id="emailHelp" class="form-text text-muted">Nurikenov Darkhan Serikbolovich</small>
+                  </div>
+
+                  <div class="form-group mb-32">
+                     <label for="city">Your City</label>
+                     <select class="form-control" id="city" name="city">
+                        <option value="Almaty">Almaty</option>
+                        <option value="Nur-Sultan">Nur-Sultan</option>
+                        
+
+                        <option value="Kyzylorda">Kyzylorda</option>
+                        <option value="Semey">Semey</option>
+                        <option value="Atyrau">Atyrau</option>
+
+                     </select>
+                  </div>
+
+                  <div class="form-group mb-32">
+                     <label for="age">Your Age</label>
+                     <input type="number" min="0" max="100" name="age" class="form-control" id="age" />
+                  </div>
+
+                  <div class="form-group mb-32">
+                     <textarea name="aboutMe" id="textarea" cols="30" rows="10" placeholder="Введите о себе"></textarea>
+                  </div>
+
+                  <div>
+                     <button type="button" class="btn btn-primary btn-lg btn-block mb-32" style="width: 100%" id="save">
+                        Save
+                     </button>
+
+                  </div>
+               </div>
+            </div>
+            <div class="col-md-6">
+               <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                  <div class="carousel-inner">
+                     <div class="carousel-item active">
+                        <img
+                           src="https://telegra.ph/file/7335955feff158b496556.jpg"
+                           class="d-block w-100" alt="test1" />
+                     </div>
+                     <div class="carousel-item">
+                        <img
+                           src="https://image.freepik.com/free-photo/young-college-student-at-hard-exam-preparation-in-study-hall-looking-tired-and-weary_98890-556.jpg"
+                           class="d-block w-100" alt="test2" />
+                     </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                     data-bs-slide="prev">
+                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                     <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                     data-bs-slide="next">
+                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                     <span class="visually-hidden">Next</span>
+                  </button>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <script src="js/jQuery.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <script src="js/script.js  "></script>
+   </body>
+
+</html>
